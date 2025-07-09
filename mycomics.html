@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Kaaski's Comics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kaaskis Comic Archive</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kaaski</a>
+
+                <!-- Hamburger Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible Menu -->
+                <div class="collapse navbar-collapse nav-pills" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="mycomics.html">My Comics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comissionedcomics.html">Comissioned Comics</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container py-4">
+            <!-- Reppaded Chapter 1 HTML-->
+            <div class="row mb-5">
+                <!-- Left: Image -->
+                <div class="col-md-4">
+                    <div class="bg-image"
+                        style="background-image: url('cover1.jpg'); background-size: cover; background-position: center;">
+                        <img src="Comics/public/Repadded Chapter 1/001.jpg" alt="Comic Cover"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <!-- Right: Content -->
+                <div class="col-md-8">
+                    <div class="d-flex justify-content-between">
+                        <button class="btn btn-success btn-sm">Read with Substar 😊</button>
+                        <button class="btn btn-outline-secondary btn-sm free-avaliable" onclick="window.location.href='reppaddedchapter1.html?series=Repadded%20Chapter%201'">Read Free</button>
+                    </div>
+                    <h3 class="mt-2">Repadded Chapter 1</h3>
+                    <p><strong>Description:</strong></p>
+                    <p>Put info here that had the </p>
+                    <div class="accordion" id="comicAccordion">
+
+                        <!-- Comic 1 -->
+                        <div class="accordion-item border-0">
+                            <a class="btn btn-see-more more-info" data-bs-toggle="collapse" href="#charInfo1"
+                                role="button" aria-expanded="false" aria-controls="charInfo1">
+                                See more ↓
+                            </a>
+                            <div id="charInfo1" class="accordion-collapse collapse" data-bs-parent="#comicAccordion">
+                                <div class="card card-body">
+                                    <h5>Characters</h5>
+                                    <ul>
+                                        <li><strong>Blaze:</strong> The main character struggling with emotions.</li>
+                                        <li><strong>Dad:</strong> Supportive yet stern father figure.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reppadded Chapter 2 HTML -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="bg-image"
+                            style="background-image: url('cover2.jpg'); background-size: cover; background-position: center;">
+                            <img src="Comics/public/Repadded Chapter 2/001.jpg" alt="Comic Cover"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-success btn-sm">Read with Substar 😊</button>
+                            <button class="btn btn-outline-secondary btn-sm free-avaliable" onclick="window.location.href='reppaddedchapter2.html?series=Repadded%20Chapter%202'">Read Free</button>
+                        </div>
+                        <h3 class="mt-2">Repadded Chapter 2</h3>
+                        <p><strong>Description:</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi...</p>
+                        <div class="accordion-item border-0">
+                            <a class="btn btn-see-more more-info" data-bs-toggle="collapse" href="#charInfo2"
+                                role="button" aria-expanded="false" aria-controls="charInfo2">
+                                See more ↓
+                            </a>
+                            <div id="charInfo2" class="accordion-collapse collapse" data-bs-parent="#comicAccordion">
+                                <div class="card card-body">
+                                    <h5>Characters</h5>
+                                    <ul>
+                                        <li><strong>Nerd:</strong> A shy but clever student.</li>
+                                        <li><strong>Bully:</strong> The school bully with a hidden side.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reppadded Chapter 3 HTML -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="bg-image"
+                            style="background-image: url('cover2.jpg'); background-size: cover; background-position: center;">
+                            <img src="Comics/public/Repadded Chapter 3/Repadded_Ch3-images-0.jpg" alt="Comic Cover"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-success btn-sm">Read with Substar 😊</button>
+                            <button class="btn btn-outline-secondary btn-sm free-avaliable" onclick="window.location.href='reppaddedchapter3.html?series=Repadded%20Chapter%203'">Read Free</button>
+                        </div>
+                        <h3 class="mt-2">Repadded Chapter 3</h3>
+                        <p><strong>Description:</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi...</p>
+                        <div class="accordion-item border-0">
+                            <a class="btn btn-see-more more-info" data-bs-toggle="collapse" href="#charInfo3"
+                                role="button" aria-expanded="false" aria-controls="charInfo3">
+                                See more ↓
+                            </a>
+                            <div id="charInfo3" class="accordion-collapse collapse" data-bs-parent="#comicAccordion">
+                                <div class="card card-body">
+                                    <h5>Characters</h5>
+                                    <ul>
+                                        <li><strong>Nerd:</strong> A shy but clever student.</li>
+                                        <li><strong>Bully:</strong> The school bully with a hidden side.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer>
+        &copy; 2024 Kaaski. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="JavaScript/reading.js"></script>
+</body>
+
+</html>
